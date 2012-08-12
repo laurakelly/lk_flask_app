@@ -1,0 +1,52 @@
+body {
+    background-image:url("dark_geometric.png");
+    color: #BBBBBB;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:25px;
+}
+
+a {
+    color: #33BB88;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9977DD;
+}
+.grid_12 img {
+    width:960px;
+    margin-top:40px;
+    padding-bottom: 40px;
+    border-bottom-style:solid;
+    border-color: #BBBBBB;
+    border-bottom-width: 2px;
+}
+
+#nav a {
+    display:inline;
+    margin-right: 20px;
+    color: #BBBBBB;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:visited {
+    color: #BBBBBB;
+}
+
+#nav a:hover {
+    color: black;
+}
+
+.grid_12 p {
+    margin-top:100px;
+}
+
+#icons img{
+    margin-top:30px;
+    margin-right:7px;
+    height: 50px;
+    width: 50px;
+}
+

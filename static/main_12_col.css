@@ -13,45 +13,6 @@
   Note: IE6 works fine without this fix.
 */
 
-body {
-    /*background-color: #2E2E2E;*/
-    min-width: 960px;
-    background-image: url('../static/dark_Tire.png');
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 17px;
-    color:LightSteelBlue;
-}
-
-h1 {
-    background-color: #B18904;
-    padding-right: 10%;
-    font-family: 'Jockey One', sans-serif;
-    font-size: 180px;
-    text-align: right;
-    text-transform: uppercase;
-}
-
-a {
-    color:#4682b4;
-}
-
-a: visited {
-    color: #2e8b57;
-}
-
-.content {
-
-}
-
-
-.sidebar {
-
-    display: block;
-}
-
-.container_12{
-    background-color:#222222;
-}
 
 /* `Container
 ----------------------------------------------------------------------------------------------------*/

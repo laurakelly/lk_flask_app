@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template("index_960.html")
+    return render_template("index_v2.html")
 
 @app.route('/portfolio')
 def portfolio():
@@ -16,7 +16,7 @@ def cv():
 
 @app.route('/blog/')
 def blog():
-    return render_template("index_960.html")
+    return render_template("blog.html")
 
 @app.route('/projects')
 def projects():
