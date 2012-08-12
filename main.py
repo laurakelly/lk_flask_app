@@ -26,5 +26,9 @@ def projects():
 def links():
     return render_template("links.html")
 
+@app.route('/cv')
+def cv():
+    return render_template("cv.html")
+
 if __name__ == '__main__':
     app.run('0.0.0.0')
