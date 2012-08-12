@@ -1,1 +1,1 @@
-web: python main.py -b 0.0.0.0:$PORT
+web: python main.py -b "0.0.0.0:$PORT"
