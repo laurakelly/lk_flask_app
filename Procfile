@@ -1,1 +1,1 @@
-web: python main.py 0.0.0.0:$PORT --noreload
+web: python main.py
