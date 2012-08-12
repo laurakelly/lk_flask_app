@@ -40,7 +40,11 @@ a:hover {
 }
 
 .grid_12 p {
-    margin-top:100px;
+    margin-top:20px;
+}
+
+.grid_12 #nav {
+    margin-bottom: 50px;
 }
 
 #icons img{
@@ -50,3 +54,28 @@ a:hover {
     width: 50px;
 }
 
+.art img {
+    margin-bottom: 40px;
+}
+
+.top {
+    margin-top:-40px;
+}
+
+.project h2 {
+    font-weight:normal;
+    text-align:right;
+}
+
+.project p {
+    margin-top:0px;
+    text-align: right;
+}
+
+.project ul {
+    margin-bottom:50px;
+}
+
+#copyright {
+    text-align:center;
+}
