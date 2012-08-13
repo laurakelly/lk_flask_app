@@ -79,3 +79,29 @@ a:hover {
 #copyright {
     text-align:center;
 }
+
+/*resume formatting*/
+
+.resume {
+    font-size:20px;
+}
+
+.resume .education li {
+    text-align:center;
+}
+
+.resume h3{
+    text-align:center;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.resume li {
+    list-style:none;
+}
+
+.resume h2 {
+    font-size:25px;
+    text-align:center;
+
+}
