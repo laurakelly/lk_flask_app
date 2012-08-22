@@ -7,6 +7,19 @@
     <link rel="stylesheet" type="text/css" href="../static/lkcom_v2.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <title>Laura Kelly</title>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34277227-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body>
 <div class="container_12">
@@ -25,35 +38,120 @@
             <a href="http://scriptogr.am/laurakelly">Blog</a>
             <a href="{{ url_for('cv')  }}">CV</a>
             <!--<a href="{{ url_for('links')  }}">Links</a>-->
+            <div class="download"><a href="https://www.dropbox.com/s/24vsd0g10jxh6zz/Laura_Kelly_resume.pdf" style="color:#33BB88">DOWNLOAD</a></div>
         </div>
     </div>
     <div class="container_12">
-    <div class="grid_12">
-        <h3 style="text-align:center;">COMING SOON!</h3>
+    <div class="resume">
+    <div class="grid_10 prefix_1 experience">
+        <h2>EXPERIENCE</h2>
+        <h3><b>HACKBRIGHT ACADEMY</b>, Student, June - August 2012</h3>
+        <ul>
+            <li>Hackbright is a 10 week, full-time intensive web development course, focusing on Python</li>
+            <li>I gained experience with Python, Django, Flask, SQL and MongoDB, Javascript, JQuery, HTML and CSS</li>
+            <li>I created a number of applications throughout the program such as a movie rating prediction system implementing
+            Pearson’s r, K-nearest neighbor, and Euclidean distance, a to-do list using Flask, and a program that generates
+            text in the style of a particular author using Markov chains</li>
+        <ul>
+    </div>
+    <div class="grid_10 prefix_1 experience">
+        <h3><b>UC DAVIS, DYNAMIC MEMORY LAB</b>, Junior Specialist, July 2010 - July 2012</h3>
+        <ul>
+            <li>Conducted fMRI, EEG, eye-tracking, and behavioral cognitive neuroscience studies</li>
+            <li>Analyzed experimental data in Python and Matlab</li>
+            <li>Administered lab server system (a Ubuntu 10 server, an Xserve, and two Drobos)</li>
+            <li>Published academic author in Neuron</li>
+            <li>Lab Python evangelist</li>
+        </ul>
+    </div>
+    <div class="grid_10 prefix_1 projects">
+        <h2>PROJECTS</h2>
+        <h3><b>IDL HANDS</b> a self-curated online art community by artists, for artists</h3>
+        <ul>
+            <li>A personal side project which I created, designed, and implemented</li>
+            <li>The site is a multi-user platform in which users can post art portfolios and upvote other users’ work</li>
+            <li>Front page is dynamically generated to feature new and interesting work</li>
+            <li>Uses Python, Django, PostgreSQL, JQuery and Javascript</li>
+        <ul>
+    </div>
+    <div class="grid_10 prefix_1 projects">
+        <h3><b>MUNI MOBILE</b> a web app that texts you scheduled, real-time updates of approaching Muni buses</h3>
+        <ul>
+            <li>www.munimobile.herokuapp.com</li>
+            <li>Won 2nd place at the DevelopHer Hackathon at LinkedIn</li>
+            <li>I implemented back-end functions which gather bus information via the NextBus API and calculate which users in the
+                PostgreSQL database need to be texted, and I created a cron job on Cron.io to trigger database queries</li>
+            <li>Muni Mobile uses Python, Django, Cron.io, Twilio, NextBus API, JSON, and Javascript</li>
+        </ul>
+    </div>
+    <div class="grid_10 prefix_1 projects">
+        <h3><b>WOMEN WHO CODE WEBSITE</b> a website for the SF chapter of Women Who Code</h3>
+        <ul>
+            <li>Using Django, I implemented a page in which users can send in information about themselves in order to be matched
+                with a mentor or volunteer as a mentor</li>
+    </div>
+    <div class="grid_12 skills">
+        <h2>SKILLS</h2>
+    </div>
+    <div class="grid_5 prefix_1">
+        <ul>
+            <li><b>LANGUAGES</b> Python, Matlab, R. Undergraduate coursework in Java</li>
+            <li><b>FRAMEWORKS</b> Django, Flask</li>
+            <li><b>DATABASES</b> SQL,MongoDB</li>
+            <li><b>FRONT-END</b> Javascript, JQuery, HTML, CSS</li>
+        </ul>
+    </div>
+    <div class="grid_6">
+        <ul>
+            <li><b>APPLICATIONS</b> Adobe Photoshop, Illustrator</li>
+            <li><b>OTHER</b> Knowledge of statistical methods for behavioral and cognitive neuroscience research, experience with eye-tracking hardware, data collection, and analysis</li>
+        </ul>
+    </div>
+    <div class="grid_12 education">
+        <h2>EDUCATION</h2>
+        <ul>
+            <li>Washington University in St. Louis</li>
+            <li>Bachelor of Arts, May 2010. Majored in Philosophy-Neuroscience-Psychology</li>
+        </ul>
+    </div>
+    <div class="left grid_5">
+    <div class="grid_5 prefix_1 publications">
+        <h2><b>PUBLICATIONS</b></h2>
+        <ul>
+            <li>Women 2.0, “Two Student Programmers Build Their First
+                Webapp, Winning Second Place At DevelopHer Hackathon”,
+                www.lauralkelly.com/women2</li>
+            <li>Neuron, “Can cognitive training improve episodic memory?”,
+                www.lauralkelly.com/neuron</li>
+        </ul>
+    </div>
+    <div class="grid_5 prefix_1 hobbies">
+        <h2><b>HOBBIES</b></h2>
+        <ul>
+            <li>Active member of PyLadies</li>
+            <li>Mixed-media artist, with work in gallery shows in California
+                and New York in the past year</li>
+        </ul>
     </div>
     </div>
-    <!--<div class="resume">-->
-    <!--<div class="grid_5 education prefix_3">-->
-        <!--<h2>EDUCATION</h2>-->
-        <!--<ul>-->
-            <!--<li>Washington University in St. Louis</li>-->
-            <!--<li>Bachelor of Arts, May 2010</li>-->
-            <!--<li>Majored in Philosophy-Neuroscience-Psychology</li>-->
-            <!--<li>GPA: 3.46/4.0<li>-->
-        <!--</ul>-->
-    <!--</div>-->
-    <!--<div class="grid_12 experience">-->
-        <!--<h2>EXPERIENCE</h2>-->
-        <!--<h3><b>HACKBRIGHT ACADEMY</b>, student, June - August 2012</h3>-->
-        <!--<ul>-->
-            <!--<li>Hackbright is a 10 week, full-time intensive web development course, focusing on Python</li>-->
-            <!--<li>I gained experience with Python, Django, Flask, SQL and MongoDB, Javascript, JQuery, HTML and CSS</li>-->
-            <!--<li>I created a number of applications throughout the project such as a movie rating prediction system implementing-->
-            <!--Pearson’s r, K-nearest neighbor, and Euclidean distance, a to-do list using Flask, and a program that generates-->
-            <!--text in the style of a particular author using Markov chains</li>-->
-        <!--<ul>-->
+    <div class="grid_6 prefix_1 honors">
+        <h2><b>HONORS AND AWARDS</b></h2>
+        <ul>
+            <li>Speaker at Hackbright Academy’s Girl Geek Dinner, 2012</li> 
+            <li>2nd Place, DevelopHer Hackathon at LinkedIn, 2012</li>
+            <li>PyLadies Scholarship, 2012</li>
+            <li>Selected as a Gawker Artist, 2011</li>
+            <li>Undergraduate Research Award, Washington U. in St. 
+                Louis, 2008 & 2009</li> 
+            <li>Gary Hirsch Research Scholarship, Washington U. in St. 
+                Louis, 2008</li>
+            <li>Dean’s List, Washington U. in St. Louis, Fall 2008 – Spring 
+                2009</li>
+        </ul>
     </div>
-
+    <br>
+    <br>
+    <br>
 </div>
 </body>
 </html>

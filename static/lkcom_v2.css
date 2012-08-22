@@ -82,8 +82,13 @@ a:hover {
 
 /*resume formatting*/
 
+.download a {
+    float:right;
+    display:inline;
+}
+
 .resume {
-    font-size:20px;
+    font-size:19px;
 }
 
 .resume .education li {
@@ -91,17 +96,33 @@ a:hover {
 }
 
 .resume h3{
-    text-align:center;
-    font-size:20px;
+    text-align:left;
+    font-size:19px;
     text-decoration:none;
-}
-
-.resume li {
-    list-style:none;
+    font-weight:normal;
+    margin-bottom:-15px;
+    margin-top:-7px;
 }
 
 .resume h2 {
     font-size:25px;
     text-align:center;
+    margin-top:-5px;;
+}
 
+.education li{
+    list-style:none;
+    text-align:center;
+}
+
+.resume .hobbies h2 {
+    margin-bottom:-5px  
+}
+
+.resume .publications h2 {
+    margin-bottom:-5px
+}
+
+.resume .honors h2 {
+    margin-bottom:-5px
 }
