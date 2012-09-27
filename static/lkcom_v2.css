@@ -56,7 +56,17 @@ a:hover {
 
 .art img {
     margin-bottom: 40px;
+    margin-left: 43.5px;
+    height: 200px;
+    width: 200px;
+
 }
+
+/*.art #right_border img {
+    margin-left: 10px;
+    margin-right: 40px;
+    display: inline;
+}*/
 
 .top {
     margin-top:-40px;

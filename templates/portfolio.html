@@ -2,24 +2,46 @@
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+    <title>Laura Kelly</title>
     <link rel="icon" type="image/png" href="../static/necker_cube_green.png">
     <link rel="stylesheet" type="text/css" href="../static/main_12_col.css" />
     <link rel="stylesheet" type="text/css" href="../static/lkcom_v2.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
-	<title>Laura Kelly</title>
+    <link href="../static/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
+    <script src="../static/jquery-1.8.2.min.js"></script>
+    <script src="../static/fancybox/jquery.fancybox-1.3.4.min.js"></script>
+    <script> // jQuery for fancybox
+    $(document).ready(function() {  
+        $("#gallery a").hover(function() {
+            // $(this).hide();
+            $(this).first('img').animate(
+                {
+                    opacity: "0.25",
+                }, 300);
+        }, function() {
+            $(this).first('img').animate(
+                {   
+                    opacity: "1",
+                }, 300);
+        }); // end hover
+        $("#gallery a").fancybox({
+            cyclic: true,
+            overlayColor: '#000',
+            overlayOpacity: .7
+        }); // end fancybox
+    }); // end ready
+    </script> 
     <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34277227-1']);
+      _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34277227-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script> 
 </head>
 <body>
     <div class="container_12">
@@ -40,46 +62,20 @@
                 <!--<a href="{{ url_for('links')  }}">Links</a>-->
             </div>
         </div>
-        <div class="art">
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/tacos.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/jarritos.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/cassette.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/typwriter.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/radio.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/gameboy.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/polaroid.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/redstripe.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/phone.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/green_bottles.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/thai.jpg">
-                </div>
-                <div class="grid_4">
-                    <img src="../static/portfolio/thumbnail/clear_bottles.jpg">
-                </div>
-                <div class="grid_4 suffix_5">
-                    <img src="../static/portfolio/thumbnail/selfportrait.jpg">
-                </div>
+        <div class="art" id="gallery" class="grid_3">
+            <a href="../static/portfolio/detail/tacos.jpg" rel="gallery" style="margin-left:-29px"><img src="../static/portfolio/thumbnail/tacos.jpg" alt="taco truck"></a>
+            <a href="../static/portfolio/detail/jarritos.jpg"><img src="../static/portfolio/thumbnail/jarritos.jpg" alt="Jarritos"></a>
+            <a href="../static/portfolio/detail/cassette.jpg"><img src="../static/portfolio/thumbnail/cassette.jpg" alt="cassette"></a>
+            <a href="../static/portfolio/detail/typewriter.jpg"><img src="../static/portfolio/thumbnail/typewriter.jpg" alt="typewriter"></a>
+            <a href="../static/portfolio/detail/radio.jpg" style="margin-left:-29px"><img src="../static/portfolio/thumbnail/radio.jpg" alt="radio"></a>
+            <a href="../static/portfolio/detail/gameboy.jpg"><img src="../static/portfolio/thumbnail/gameboy.jpg" alt="gameboy"></a>
+            <a href="../static/portfolio/detail/polaroid.jpg"><img src="../static/portfolio/thumbnail/polaroid.jpg" alt="polaroid"></a>
+            <a href="../static/portfolio/detail/redstripe.jpg"><img src="../static/portfolio/thumbnail/redstripe.jpg" alt="redstripe"></a>
+            <a href="../static/portfolio/detail/phone.jpg" style="margin-left:-29px"><img src="../static/portfolio/thumbnail/phone.jpg" alt="phone"></a>
+            <a href="../static/portfolio/detail/bottles.jpg"><img src="../static/portfolio/thumbnail/green_bottles.jpg" alt="green bottles"></a>
+            <a href="../static/portfolio/detail/thai.jpg"><img src="../static/portfolio/thumbnail/thai.jpg" alt="thai tea"></a>
+            <a href="../static/portfolio/detail/clear_bottles.jpg"><img src="../static/portfolio/thumbnail/clear_bottles.jpg" alt="clear bottles"></a>
+            <a href="../static/portfolio/detail/selfportrait.jpg" style="margin-left:-29px"><img src="../static/portfolio/thumbnail/selfportrait.jpg" alt="Self Portrait"></a>
         </div>
         <div class="grid_3 prefix_5">
             <div id="icons">
