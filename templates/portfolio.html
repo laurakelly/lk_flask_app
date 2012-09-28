@@ -29,6 +29,15 @@
             overlayColor: '#000',
             overlayOpacity: .7
         }); // end fancybox
+        $("#icons img").hover(function() {
+            var original = $(this).attr('id')
+            var inverse = "../static/" + original + "_inverse.png";
+            $(this).attr('src', inverse);
+        }, function() {
+            var inverse = $(this).attr('id');
+            var original = "../static/" + inverse + ".png";
+            $(this).attr('src', original);
+        }); // end hover
     }); // end ready
     </script> 
     <script type="text/javascript">
@@ -79,9 +88,9 @@
         </div>
         <div class="grid_3 prefix_5">
             <div id="icons">
-                <a href="http://www.github.com/laurakelly"><img src=../static/octocat_simple.png></a>
-                <a href="http://www.linkedin.com/in/lauralkelly"><img src=../static/linked_in.png></a>
-                <a href="http://www.twitter.com/heylaurakelly"><img src=../static/twitter.png></a>
+                <a href="http://www.github.com/laurakelly"><img src=../static/octocat.png id="octocat"></a>
+                <a href="http://www.linkedin.com/in/lauralkelly"><img src=../static/linked_in.png id="linked_in"></a>
+                <a href="http://www.twitter.com/heylaurakelly"><img src=../static/twitter.png id="twitter"></a>
             </div>
         </div>
     </div>
@@ -90,3 +99,4 @@
     </div>
 </body>
 </html>
+
