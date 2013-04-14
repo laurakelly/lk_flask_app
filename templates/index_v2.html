@@ -7,31 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../static/lkcom_v2.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <title>Laura Kelly</title>
-    <script src="../static/jquery-1.8.2.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#icons img").hover(function() {
-                var original = $(this).attr('id')
-                var inverse = "../static/" + original + "_inverse.png";
-                $(this).attr('src', inverse);
-            }, function() {
-                var inverse = $(this).attr('id');
-                var original = "../static/" + inverse + ".png";
-                $(this).attr('src', original);
-            }); // end hover
-        }); // end ready
-    </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-34277227-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
 </head>
 <body>
     <div class="container_12">
@@ -53,12 +28,12 @@
             </div>
         </div>
         <div class="grid_12">
-            <p>Hi, I'm Laura Kelly. I'm a web developer who loves Python and Django and
-                a freelance mixed media artist in my spare time. I'm currently a student
-                at <a href="http://www.hackbrightacademy.com">Hackbright Academy</a>. Prior
-                to becoming a developer, I studied philosophy and neuroscience at
-                Washington University in St. Louis. After graduating, I worked in a neuroscience
-                lab at UC Davis for two years studing memory with fMRI, EEG, and eye-tracking. I
+            <p>Hi, I'm Laura Kelly. I'm a web developer who builds things in Javascript, Python, and Django. I'm also
+            a freelance mixed media artist in my spare time. I like working with data, creating great user experiences,
+            and building visualizations with <a href="http://www.d3js.org">D3.js</a> (my favorite Javascript library). I'm an alumna of
+            <a href="http://www.hackbrightacademy.com">Hackbright Academy</a>, and studied philosophy and neuroscience at
+                Washington University in St. Louis prior to becoming a developer. After graduating from Wash. U., I worked in a neuroscience
+                lab at UC Davis for two years studying human memory with fMRI, EEG, and eye-tracking. I
                 taught myself Python to do data analysis in the lab and liked programming so much
                 that I decided to go into web development. At the beginning of July 2012, I participated
                 in my fist hackathon, the LinkedIn DevelopHer Hack Day. We completed
@@ -75,5 +50,32 @@
             </div>
         </div>
     </div>
+
+    <!-- scripts -->
+    <script src="../static/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34277227-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#icons img").hover(function() {
+                var original = $(this).attr('id')
+                var inverse = "../static/" + original + "_inverse.png";
+                $(this).attr('src', inverse);
+            }, function() {
+                var inverse = $(this).attr('id');
+                var original = "../static/" + inverse + ".png";
+                $(this).attr('src', original);
+            }); // end hover
+        }); // end ready
+    </script>
 </body>
 </html>
