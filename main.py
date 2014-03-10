@@ -29,7 +29,7 @@ def links():
 
 @app.route('/cv')
 def cv():
-    return render_template("cv.html")
+    return render_template("d3_resume.html")
 
 @app.route('/women2')
 def women2():
