@@ -1,0 +1,63 @@
+{
+    "name": "data",
+    "children": [
+        {
+            "name": "Languages",
+            "children": [
+                {"name": "JavaScript", "size": 10, "fill": "#D4795E"},
+                {"name": "Python", "size": 7, "fill": "#D4795E"},
+                {"name": "Matlab", "size": 3, "fill": "#D4795E"},
+                {"name": "R", "size": 1, "fill": "#D4795E"}    
+            ]
+        },
+        {
+            "name": "Front-End",
+            "children": [
+                {"name": "D3.js", "size": 7, "fill": "#C0D1AC"},
+                {"name": "Underscore", "size": 5, "fill": "#C0D1AC"},
+                {"name": "CSS", "size": 7, "fill": "#C0D1AC"},
+                {"name": "HTML", "size": 8, "fill": "#C0D1AC"},
+                {"name": "jQuery", "size": 6, "fill": "#C0D1AC"},
+                {"name": "Grunt", "size": 3, "fill": "#C0D1AC"},
+                {"name": "LESS", "size": 7, "fill": "#C0D1AC"},
+                {"name": "TopoJSON", "size": 2, "fill": "#C0D1AC"},
+                {"name": "Require.js", "size": 8, "fill": "#C0D1AC"},
+                {"name": "Handlebars", "size": 4, "fill": "#C0D1AC"}   
+            ]
+        },
+        {
+            "name": "Version Control", 
+            "children": [
+                {"name": "Git", "size": 7, "fill": "#92948C"},
+                {"name": "SVN", "size": 2, "fill": "#92948C"}    
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "children": [
+                {"name": "Flask", "size": 4, "fill": "#829DA8"},
+                {"name": "Django", "size": 4, "fill": "#829DA8"},
+                {"name": "Backbone", "size": 8, "fill": "#829DA8"},
+                {"name": "Node", "size": 1, "fill": "#829DA8"}    
+            ]
+        },
+        {
+            "name": "Applications",
+            "children": [
+                {"name": "Photoshop", "size": 3, "fill": "#F0C185"},
+                {"name": "Illustrator", "size": 6, "fill": "#F0C185"}    
+            ]
+        },
+        {
+            "name": "Other",
+            "children": [
+                {"name": "Cog Neuro Stats",
+                "size": 2, "fill": "#766165"},
+                {"name": "fMRI", "size": 1, "fill": "#766165"},
+                {"name": "EEG", "size": 2, "fill": "#766165"},
+                {"name": "Eye-Tracking", "size": 2, "fill": "#766165"}
+            ]
+        }
+    ]
+}
+

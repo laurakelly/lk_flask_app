@@ -39,6 +39,10 @@ def women2():
 def neuron():
     return redirect('http://www.ncbi.nlm.nih.gov/pubmed/22153366')
 
+@app.route('/resume')
+def resume():
+    return render_template("d3_resume.html")
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
