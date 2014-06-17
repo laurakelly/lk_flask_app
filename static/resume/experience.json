@@ -1,5 +1,41 @@
 [
    {
+      "date": 1402969466473,
+      "title": "Hackbright Academy",
+      "role": "Teaching Assistant",
+      "orient": {
+          "vertical": "bottom",
+          "horizontal": "right",
+          "height": "260"
+      },
+      "text": [
+          "June 2014 - current",
+          "Teaching assistant for a programming and computer science fellowship for women",
+          "Create and edit course material for Python, JavaScript, HTML, CSS, and SQL",
+          "Explain computer science concepts to fellowship students",
+          "Review, critique, and troublshoot students' code and projects",
+          "Provide mentorship, career guidance, and advice about programming best practices to fellowship students" 
+      ]
+   },
+   {
+      "date": 1402969466473,
+      "title": "Plot.ly",
+      "role": "Software Engineer (contract)",
+      "orient": {
+          "vertical": "bottom",
+          "horizontal": "right",
+          "height": "260"
+      },
+      "text": [
+         "May 2014 - current",
+         "Implement new Python code and models in existing Django application to improve functionality of data visualization themes",
+         "Write client-side JavaScript code to improve the functionality of data visualization themes",
+         "Improve user experience of web user interface",
+         "Researched and implemented team style guide for JavaScript",
+         "Refactor legacy Python and JavaScript code to improve maintainability"
+      ]
+   }
+   {
       "date":1351838315000,
       "title":"WebAction",
       "role":"User Interface Developer",
@@ -9,12 +45,12 @@
           "height": "260" 
       },
       "text":[
-         "November 2012 - current",
+         "November 2012 - May 2014",
          "First member of front-end team. Made several technology choices for the front-end: D3.js, Backbone.js, Require.js, LESS, Grunt",
-         "Architect, design, and program a user interface that allows users to build and fully customize real-time visualizations for large quantities of big data",
-         "Maximize the usability of the visualization interface",
-         "Make design decisions to nudge users to design clear visualizations that illuminate relevant patterns in the data",
-         "Optimize front-end codebase to efficiently parse large quantities of data client-side",
+         "Architected, designed, and programed a user interface that allows users to build and fully customize real-time visualizations for large quantities of big data",
+         "Maximized the usability of the visualization interface",
+         "Made design decisions to nudge users to design clear visualizations that illuminate relevant patterns in the data",
+         "Optimized front-end codebase to efficiently parse large quantities of data client-side",
          "Initiated and programmed an automated front-end build process using Grunt.js",
          "Designed marketing and branding materials (though not the logo)"
       ]
