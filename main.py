@@ -13,7 +13,7 @@ def portfolio():
 
 @app.route('/cv')
 def cv():
-    return render_template("index_960.html")
+    return render_template("d3_resume.html")
 
 @app.route('/blog/')
 def blog():
@@ -26,10 +26,6 @@ def projects():
 @app.route('/links')
 def links():
     return render_template("links.html")
-
-@app.route('/cv')
-def cv():
-    return render_template("d3_resume.html")
 
 @app.route('/women2')
 def women2():
