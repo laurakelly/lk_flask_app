@@ -7,21 +7,13 @@ app = Flask(__name__)
 def home():
     return render_template("index_v2.html")
 
+@app.route('/resume')
+def resume():
+    return render_template("d3_resume.html")
+
 @app.route('/portfolio')
 def portfolio():
     return render_template("portfolio.html")
-
-@app.route('/resume')
-def cv():
-    return render_template("d3_resume.html")
-
-@app.route('/projects')
-def projects():
-    return render_template("projects.html")
-
-@app.route('/links')
-def links():
-    return render_template("links.html")
 
 @app.route('/women2')
 def women2():
@@ -31,10 +23,5 @@ def women2():
 def neuron():
     return redirect('http://www.ncbi.nlm.nih.gov/pubmed/22153366')
 
-@app.route('/resume')
-def resume():
-    return render_template("d3_resume.html")
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+if __name__== "__main__":
+    app.run()
