@@ -343,6 +343,15 @@ header hr {
 #experience svg {
   margin-top: 110px;
 }
+#contract ul {
+  margin-left: 20px;
+}
+#contract > ul > li {
+  margin: 5px 40px 10px 0px;
+}
+#contract > ul > li > ul > li {
+  list-style: none;
+}
 #projects > ul > li {
   margin: 5px 40px 10px 0px;
 }
