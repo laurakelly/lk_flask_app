@@ -11,7 +11,7 @@ def home():
 def portfolio():
     return render_template("portfolio.html")
 
-@app.route('/cv')
+@app.route('/resume')
 def cv():
     return render_template("d3_resume.html")
 

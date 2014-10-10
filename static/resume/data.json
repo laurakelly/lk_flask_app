@@ -37,8 +37,8 @@
             "children": [
                 {"name": "Flask", "size": 4, "fill": "#829DA8"},
                 {"name": "Django", "size": 4, "fill": "#829DA8"},
-                {"name": "Backbone", "size": 8, "fill": "#829DA8"},
-                {"name": "Node", "size": 1, "fill": "#829DA8"}    
+                {"name": "Backbone.js", "size": 8, "fill": "#829DA8"},
+                {"name": "React.js", "size": 6, "fill": "#829DA8"}   
             ]
         },
         {

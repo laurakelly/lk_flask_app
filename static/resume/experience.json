@@ -1,109 +1,73 @@
 [
-   {
-      "date": 1402969466473,
-      "title": "Hackbright Academy",
-      "role": "Teaching Assistant",
-      "orient": {
-          "vertical": "bottom",
-          "horizontal": "right",
-          "height": "260"
-      },
-      "text": [
-          "June 2014 - current",
-          "Teaching assistant for a programming and computer science fellowship for women",
-          "Create and edit course material for Python, JavaScript, HTML, CSS, and SQL",
-          "Explain computer science concepts to fellowship students",
-          "Review, critique, and troublshoot students' code and projects",
-          "Provide mentorship, career guidance, and advice about programming best practices to fellowship students" 
-      ]
-   },
-   {
-      "date": 1402969466473,
-      "title": "Plot.ly",
-      "role": "Software Engineer (contract)",
-      "orient": {
-          "vertical": "bottom",
-          "horizontal": "right",
-          "height": "260"
-      },
-      "text": [
-         "May 2014 - current",
-         "Implement new Python code and models in existing Django application to improve functionality of data visualization themes",
-         "Write client-side JavaScript code to improve the functionality of data visualization themes",
-         "Improve user experience of web user interface",
-         "Researched and implemented team style guide for JavaScript",
-         "Refactor legacy Python and JavaScript code to improve maintainability"
-      ]
-   }
-   {
-      "date":1351838315000,
-      "title":"WebAction",
-      "role":"User Interface Developer",
-      "orient": { 
-          "vertical": "bottom",
-          "horizontal": "right",
-          "height": "260" 
-      },
-      "text":[
-         "November 2012 - May 2014",
-         "First member of front-end team. Made several technology choices for the front-end: D3.js, Backbone.js, Require.js, LESS, Grunt",
-         "Architected, designed, and programed a user interface that allows users to build and fully customize real-time visualizations for large quantities of big data",
-         "Maximized the usability of the visualization interface",
-         "Made design decisions to nudge users to design clear visualizations that illuminate relevant patterns in the data",
-         "Optimized front-end codebase to efficiently parse large quantities of data client-side",
-         "Initiated and programmed an automated front-end build process using Grunt.js",
-         "Designed marketing and branding materials (though not the logo)"
-      ]
-   },
-   {
-      "date":1338619115000,
-      "title":"Hackbright Academy",
-      "role":"Student",
-      "orient": {
-          "vertical": "top",
-          "horizontal": "left",
-          "height": "200"
-      },
-      "text":[
-         "June - August 2012",
-         "Hackbright is a 10 week, full-time intensive programming fellowship focusing on Python and web development",
-         "Gained experience with Python, Django, Flask, SQL and MongoDB, Javascript, HTML and CSS",
-         "Created a number of applications throughout the program, such as a movie rating prediction system implementing Pearson's r, K-nearest neighbor, and Euclidean distance, a to-do list using Flask, and a program that generates text in the style of a particular author using Markov chains"
-      ]
-   },
-   {
-      "date":1278052715000,
-      "title":"Ranganath Lab, UC Davis",
-      "role":"Junior Specialist Researcher",
-      "orient": {
-          "vertical": "top",
-          "horizontal": "right",
-          "height": "125"
-      },
-      "text":[
-         "July 2010 – July 2012",
-         "Conducted fMRI, EEG, eye-tracking, and behavioral cognitive neuroscience studies",
-         "Analyzed experimental data in Python and Matlab",
-         "Published academic author in Neuron",
-         "Administered lab server system (a Ubuntu 10 server, an Xserve, and two Drobos), serving ~20 machines plus remote users",
-         "Lab Python evangelist"
-      ]
-   },
-   {
-      "date":1156660715000,
-      "title":"Washington University in St. Louis",
-      "role":"Student",
-      "orient": {
-          "vertical": "bottom",
-          "horizontal": "left",
-          "height": "40"
-      },
-      "text":[
-         "Fall 2006 - Spring 2010",
-         "Bachelor of Arts",
-         "GPA: 3.46",
-         "Majored in Philosophy-Neuroscience-Psychology",
-         "Minored in Studio Art"
-      ]
-   }
+    {
+        "date": 1351838315000,
+        "title": "WebAction",
+        "role": "User Interface Developer",
+        "orient": {
+            "vertical": "bottom",
+            "horizontal": "right",
+            "height": "260"
+        },
+        "text": [
+            "November 2012 - May 2014",
+            "First member of front-end team. Made several technology choices for the front-end: D3.js, Backbone.js, Require.js, LESS, Grunt",
+            "Architected, designed, and programmed a user interface that allows users to build and fully customize real-time visualizations for large quantities of big data",
+            "Maximized the usability of the visualization interface",
+            "Made design decisions to nudge users to design clear visualizations that illuminate relevant patterns in the data",
+            "Optimized front-end codebase to efficiently parse large quantities of data client-side",
+            "Initiated and programmed an automated front-end build process using Grunt.js",
+            "Designed marketing and branding materials (though not the logo)"
+        ]
+    },
+    {
+        "date": 1338619115000,
+        "title": "Hackbright Academy",
+        "role": "Student",
+        "orient": {
+            "vertical": "top",
+            "horizontal": "left",
+            "height": "200"
+        },
+        "text": [
+            "June - August 2012",
+            "Hackbright is a 10 week, full-time intensive programming fellowship focusing on Python and web development",
+            "Gained experience with Python, Django, Flask, SQL and MongoDB, Javascript, HTML and CSS",
+            "Created a number of applications throughout the program, such as a movie rating prediction system implementing Pearson's r, K-nearest neighbor, and Euclidean distance, a to-do list using Flask, and a program that generates text in the style of a particular author using Markov chains"
+        ]
+    },
+    {
+        "date": 1278052715000,
+        "title": "Ranganath Lab, UC Davis",
+        "role": "Junior Specialist Researcher",
+        "orient": {
+            "vertical": "top",
+            "horizontal": "right",
+            "height": "125"
+        },
+        "text": [
+            "July 2010 – July 2012",
+            "Conducted fMRI, EEG, eye-tracking, and behavioral cognitive neuroscience studies",
+            "Analyzed experimental data in Python and Matlab",
+            "Published academic author in Neuron",
+            "Administered lab server system (a Ubuntu 10 server, an Xserve, and two Drobos), serving ~20 machines plus remote users",
+            "Lab Python evangelist"
+        ]
+    },
+    {
+        "date": 1156660715000,
+        "title": "Washington University in St. Louis",
+        "role": "Student",
+        "orient": {
+            "vertical": "bottom",
+            "horizontal": "left",
+            "height": "40"
+        },
+        "text": [
+            "Fall 2006 - Spring 2010",
+            "Bachelor of Arts",
+            "GPA: 3.46",
+            "Majored in Philosophy-Neuroscience-Psychology",
+            "Minored in Studio Art"
+        ]
+    }
 ]
