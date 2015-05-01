@@ -5,6 +5,7 @@
             "name": "Languages",
             "children": [
                 {"name": "JavaScript", "size": 10, "fill": "#D4795E"},
+                {"name": "Clojure", "size": 6, "fill":"#D4795E"},
                 {"name": "Python", "size": 7, "fill": "#D4795E"},
                 {"name": "Matlab", "size": 3, "fill": "#D4795E"},
                 {"name": "R", "size": 1, "fill": "#D4795E"}    
