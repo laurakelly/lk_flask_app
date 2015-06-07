@@ -1,0 +1,59 @@
+{
+    "name": "skills",
+    "children": [
+        {
+            "name": "Languages",
+            "children": [
+                {"name": "JavaScript", "size": 20, "fill": "#D4795E"},
+                {"name": "Clojure", "size": 10, "fill":"#D4795E"},
+                {"name": "Python", "size": 18, "fill": "#D4795E"},
+                {"name": "Ruby", "size": 3, "fill": "#D4795E"},
+                {"name": "R", "size": 2, "fill": "#D4795E"}    
+            ]
+        }, 
+        {
+            "name": "Frameworks",
+            "children": [
+                {"name": "Flask", "size": 4, "fill": "#829DA8"},
+                {"name": "Django", "size": 4, "fill": "#829DA8"},
+                {"name": "Rails", "size": 3, "fill": "#829DA8"},
+                {"name": "Backbone.js", "size": 9, "fill": "#829DA8"},
+                {"name": "React.js", "size": 11, "fill": "#829DA8"}   
+            ]
+        }, 
+        {
+            "name": "HTML_CSS",
+                "children": [
+                {"name": "CSS, LESS, SASS", "size": 10, "fill": "#F0C185"},
+                {"name": "HTML", "size": 10, "fill": "#F0C185"}
+            ]
+        },
+        {
+            "name": "Applications",
+            "children": [
+                {"name": "Photoshop", "size": 3, "fill": "#F5DDE5"},
+                {"name": "Illustrator", "size": 6, "fill": "#F5DDE5"}    
+            ]
+        }, 
+        {
+            "name": "Version Control", 
+            "children": [
+                {"name": "Git", "size": 9, "fill": "#92948C"},
+                {"name": "SVN", "size": 2, "fill": "#92948C"}    
+            ]
+        }, 
+        {
+            "name": "Front-End",
+            "children": [
+                {"name": "D3.js", "size": 10, "fill": "#C0D1AC"},
+                {"name": "Underscore", "size": 5, "fill": "#C0D1AC"},
+                {"name": "jQuery", "size": 8, "fill": "#C0D1AC"},
+                {"name": "Grunt", "size": 3, "fill": "#C0D1AC"},
+                {"name": "Gulp", "size": 3, "fill": "#C0D1AC"},
+                {"name": "Require.js", "size": 8, "fill": "#C0D1AC"},
+                {"name": "Browserify", "size": 5, "fill": "#C0D1AC"}
+            ]
+        }
+    ]
+}
+
