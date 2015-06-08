@@ -1,5 +1,5 @@
 body {
-    background-image:url("images/dark_geometric.png");
+    background-image:url("/static/images/dark_geometric.png");
     color: #BBBBBB;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:25px;
