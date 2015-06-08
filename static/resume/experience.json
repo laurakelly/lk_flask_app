@@ -2,18 +2,18 @@
     {
       "date": 1418011472000,
       "title": "Framed Data",
-      "role": "Software Engineer, 2014 - current",
+      "role": "Software Engineer, 2014 - 2015",
       "orient": {
         "vertical": "bottom",
         "horizontal": "right",
         "height": "138"
       },
       "text": [
-        "Engineer a user-facing data visualization dashboard displaying machine learning data and statistics with Clojure and ClojureScript",
-        "Maximize user understanding of complex machine learning data",
-        "Took on product management and design of a customer-facing data overview page displaying the most important machine learning data and statistics to users",
-        "Programmed front-end data visualizations and various statistical analyses on the back-end for the data overview page",
-        "Built an internal dashboard for evaluating accuracy of machine learning predictions with D3.js and ClojureScript"
+        "Engineered a dashboard displaying machine learning data and statistics with Clojure, ClojureScript, and Om (React.js)",
+        "Created data visualizations and accompanying statistical analyses on the back-end",
+        "Maximized user understanding of complex machine learning data by devising and building UX improvements",
+        "Built an internal dashboard for evaluating accuracy of machine learning predictions with D3.js",
+        "Drove product management and design of numerous dashboard features"
       ]
     },
     {
@@ -26,10 +26,10 @@
             "height": "35"
         },
         "text": [
-            "First member of front-end team. Made several technology choices for the front-end: D3.js, Backbone.js, Require.js, LESS, Grunt.js",
-            "Architected, designed, and programmed a user-customizable data visualization dashboard displaying large quantities of data in real-time",
-            "Optimized front-end codebase to efficiently parse large quantities of data client-side",
-            "Built a front-end build process using Grunt.js"
+            "Founding member of front-end team",
+            "Architected, designed, and programmed a user-customizable dashboard displaying visualizations of large quantities of data in real-time",
+            "Designed front-end codebase to efficiently parse large quantities of data client-side",
+            "Implemented a front-end build process using Grunt.js"
         ]
     },
     {
