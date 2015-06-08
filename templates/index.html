@@ -1,10 +1,9 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" href="../static/necker_cube_green.png">
-    <link rel="stylesheet" type="text/css" href="../static/main_12_col.css" />
-    <link rel="stylesheet" type="text/css" href="../static/lkcom_v2.css" />
+    <link rel="icon" type="image/png" href="/static/images/icons/necker_cube_green.png">
+    <link rel="stylesheet" type="text/css" href="static/main_12_col.css" />
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <title>Laura Kelly</title>
 </head>
@@ -13,7 +12,7 @@
         <div class="grid_12">
             <div id="header">
                 <div id="logo">
-                    <img src=../static/lkcom_header.png>
+                    <img src="static/images/lkcom_header.png">
                 </div>
             </div>
         </div>
@@ -21,7 +20,7 @@
             <div id="nav">
                 <a href="{{ url_for('home') }}">Home</a>
                 <a href="{{ url_for('resume')  }}">Resume</a>
-                <a href="/portfolio">Art</a>
+                <a href="{{ url_for('portfolio') }}">Art</a>
                 <a href="http://scriptogr.am/laurakelly">Blog</a>
             </div>
         </div>
@@ -41,15 +40,15 @@
         </div>
         <div class="grid_3 prefix_5">
             <div id="icons">
-                <a href="http://www.github.com/laurakelly"><img src=../static/octocat.png id="octocat"></a>
-                <a href="http://www.linkedin.com/in/lauralkelly"><img src=../static/linked_in.png id="linked_in"></a>
-                <a href="http://www.twitter.com/heylaurakelly"><img src=../static/twitter.png id="twitter"></a>
+                <a href="http://www.github.com/laurakelly"><img src="static/images/icons/octocat.png" id="octocat"></a>
+                <a href="http://www.linkedin.com/in/lauralkelly"><img src="static/images/icons/linked_in.png" id="linked_in"></a>
+                <a href="http://www.twitter.com/heylaurakelly"><img src="static/images/icons/twitter.png" id="twitter"></a>
             </div>
         </div>
     </div>
 
     <!-- scripts -->
-    <script src="../static/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script> 
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34277227-1']);
@@ -61,18 +60,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <script>
-        $(document).ready(function() {
-            $("#icons img").hover(function() {
-                var original = $(this).attr('id')
-                var inverse = "../static/" + original + "_inverse.png";
-                $(this).attr('src', inverse);
-            }, function() {
-                var inverse = $(this).attr('id');
-                var original = "../static/" + inverse + ".png";
-                $(this).attr('src', original);
-            }); // end hover
-        }); // end ready
-    </script>
+    <script type="text/javascript" src="static/js/icon_hover.js"></script>
 </body>
 </html>

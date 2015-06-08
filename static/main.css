@@ -1,5 +1,5 @@
 body {
-    background-image:url("dark_geometric.png");
+    background-image:url("images/dark_geometric.png");
     color: #BBBBBB;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:25px;
@@ -62,12 +62,6 @@ a:hover {
 
 }
 
-/*.art #right_border img {
-    margin-left: 10px;
-    margin-right: 40px;
-    display: inline;
-}*/
-
 .top {
     margin-top:-40px;
 }
@@ -88,51 +82,4 @@ a:hover {
 
 #copyright {
     text-align:center;
-}
-
-/*resume formatting*/
-
-.download a {
-    float:right;
-    display:inline;
-}
-
-.resume {
-    font-size:19px;
-}
-
-.resume .education li {
-    text-align:center;
-}
-
-.resume h3{
-    text-align:left;
-    font-size:19px;
-    text-decoration:none;
-    font-weight:normal;
-    margin-bottom:-15px;
-    margin-top:-7px;
-}
-
-.resume h2 {
-    font-size:25px;
-    text-align:center;
-    margin-top:-5px;;
-}
-
-.education li{
-    list-style:none;
-    text-align:center;
-}
-
-.resume .hobbies h2 {
-    margin-bottom:-5px  
-}
-
-.resume .publications h2 {
-    margin-bottom:-5px
-}
-
-.resume .honors h2 {
-    margin-bottom:-5px
 }
